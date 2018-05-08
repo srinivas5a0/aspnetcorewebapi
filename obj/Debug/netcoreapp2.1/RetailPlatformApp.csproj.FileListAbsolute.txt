@@ -1,0 +1,14 @@
+D:\aspnetcore2.0\RetailPlatformApp\bin\Debug\netcoreapp2.1\RetailPlatformApp.deps.json
+D:\aspnetcore2.0\RetailPlatformApp\bin\Debug\netcoreapp2.1\RetailPlatformApp.runtimeconfig.json
+D:\aspnetcore2.0\RetailPlatformApp\bin\Debug\netcoreapp2.1\RetailPlatformApp.runtimeconfig.dev.json
+D:\aspnetcore2.0\RetailPlatformApp\bin\Debug\netcoreapp2.1\RetailPlatformApp.dll
+D:\aspnetcore2.0\RetailPlatformApp\bin\Debug\netcoreapp2.1\RetailPlatformApp.pdb
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.csproj.CoreCompileInputs.cache
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.RazorAssemblyInfo.cache
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.RazorAssemblyInfo.cs
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.AssemblyInfoInputs.cache
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.AssemblyInfo.cs
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.RazorTargetAssemblyInfo.cache
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.dll
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.pdb
+D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.csprojAssemblyReference.cache
