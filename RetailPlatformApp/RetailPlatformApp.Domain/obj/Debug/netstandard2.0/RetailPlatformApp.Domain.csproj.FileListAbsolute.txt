@@ -1,0 +1,16 @@
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.deps.json
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.dll
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.pdb
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.csproj.CoreCompileInputs.cache
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.AssemblyInfoInputs.cache
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.AssemblyInfo.cs
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.dll
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.pdb
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.deps.json
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.dll
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\bin\Debug\netstandard2.0\RetailPlatformApp.Domain.pdb
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.csproj.CoreCompileInputs.cache
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.AssemblyInfoInputs.cache
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.AssemblyInfo.cs
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.dll
+D:\DotNetCore\RetailPlatformApp\RetailPlatformApp\RetailPlatformApp.Domain\obj\Debug\netstandard2.0\RetailPlatformApp.Domain.pdb
