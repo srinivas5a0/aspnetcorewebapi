@@ -12,3 +12,13 @@ D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.Raz
 D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.dll
 D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.pdb
 D:\aspnetcore2.0\RetailPlatformApp\obj\Debug\netcoreapp2.1\RetailPlatformApp.csprojAssemblyReference.cache
+D:\DotNetCore\aspnetcorewebapi\bin\Debug\netcoreapp2.1\RetailPlatformApp.deps.json
+D:\DotNetCore\aspnetcorewebapi\bin\Debug\netcoreapp2.1\RetailPlatformApp.runtimeconfig.json
+D:\DotNetCore\aspnetcorewebapi\bin\Debug\netcoreapp2.1\RetailPlatformApp.runtimeconfig.dev.json
+D:\DotNetCore\aspnetcorewebapi\bin\Debug\netcoreapp2.1\RetailPlatformApp.dll
+D:\DotNetCore\aspnetcorewebapi\bin\Debug\netcoreapp2.1\RetailPlatformApp.pdb
+D:\DotNetCore\aspnetcorewebapi\obj\Debug\netcoreapp2.1\RetailPlatformApp.csproj.CoreCompileInputs.cache
+D:\DotNetCore\aspnetcorewebapi\obj\Debug\netcoreapp2.1\RetailPlatformApp.AssemblyInfoInputs.cache
+D:\DotNetCore\aspnetcorewebapi\obj\Debug\netcoreapp2.1\RetailPlatformApp.AssemblyInfo.cs
+D:\DotNetCore\aspnetcorewebapi\obj\Debug\netcoreapp2.1\RetailPlatformApp.dll
+D:\DotNetCore\aspnetcorewebapi\obj\Debug\netcoreapp2.1\RetailPlatformApp.pdb

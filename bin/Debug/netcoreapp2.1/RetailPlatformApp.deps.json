@@ -1,13 +1,12 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "fb4020ff05cf2daff3a72c923f68f6324e8ba493"
+    "signature": "53fb9b40d033110f5b84d41f0b313bf5574104bd"
   },
   "compilationOptions": {
     "defines": [
       "TRACE",
       "DEBUG",
-      "NETCOREAPP",
       "NETCOREAPP2_1"
     ],
     "languageVersion": "",
@@ -26,7 +25,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.7",
           "Microsoft.AspNetCore.App": "2.1.0-rc1-final",
-          "Microsoft.NETCore.App": "2.1.0-rc1"
+          "Microsoft.NETCore.App": "2.1.0-preview1-26216-03"
         },
         "runtime": {
           "RetailPlatformApp.dll": {}
@@ -37,62 +36,51 @@
       },
       "Libuv/1.10.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02"
         },
         "runtimeTargets": {
           "runtimes/linux-arm/native/libuv.so": {
             "rid": "linux-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/linux-arm64/native/libuv.so": {
             "rid": "linux-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/linux-armel/native/libuv.so": {
             "rid": "linux-armel",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/linux-x64/native/libuv.so": {
             "rid": "linux-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/osx/native/libuv.dylib": {
             "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/win-arm/native/libuv.dll": {
             "rid": "win-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/win-x64/native/libuv.dll": {
             "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/win-x86/native/libuv.dll": {
             "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           }
         }
       },
       "Microsoft.ApplicationInsights/2.4.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Diagnostics.DiagnosticSource": "4.5.0-rc1",
           "System.Diagnostics.StackTrace": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.32153"
-          }
+          "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {}
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.ApplicationInsights.dll": {}
@@ -107,15 +95,12 @@
           "Microsoft.Extensions.Configuration.Json": "2.1.0-rc1-final",
           "Microsoft.Extensions.DiagnosticAdapter": "2.1.0-rc1-final",
           "Microsoft.Extensions.Logging.Abstractions": "2.1.0-rc1-final",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Net.NameResolution": "4.3.0",
           "System.Text.Encodings.Web": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard1.6/Microsoft.ApplicationInsights.AspNetCore.dll": {
-            "assemblyVersion": "2.1.1.0",
-            "fileVersion": "2.1.1.0"
-          }
+          "lib/netstandard1.6/Microsoft.ApplicationInsights.AspNetCore.dll": {}
         },
         "compile": {
           "lib/netstandard1.6/Microsoft.ApplicationInsights.AspNetCore.dll": {}
@@ -125,15 +110,12 @@
         "dependencies": {
           "Microsoft.ApplicationInsights": "2.4.0",
           "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Diagnostics.DiagnosticSource": "4.5.0-rc1",
           "System.Diagnostics.StackTrace": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {
-            "assemblyVersion": "2.4.1.0",
-            "fileVersion": "2.4.1.1362"
-          }
+          "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {}
         },
         "compile": {
           "lib/netstandard1.6/Microsoft.AI.DependencyCollector.dll": {}
@@ -290,10 +272,7 @@
           "Microsoft.Extensions.Logging.Configuration": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {}
         },
         "compile": {
           "lib/netcoreapp2.0/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {}
@@ -305,10 +284,7 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll": {}
         },
         "compile": {
           "lib/netcoreapp2.0/Microsoft.AspNetCore.AzureAppServices.HostingStartup.dll": {}
@@ -320,10 +296,7 @@
           "Microsoft.Extensions.Logging.AzureAppServices": "2.0.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll": {}
@@ -335,10 +308,7 @@
           "WindowsAzure.Storage": "8.1.4"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {}
@@ -353,10 +323,7 @@
           "Microsoft.Extensions.Options": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll": {}
@@ -367,15 +334,12 @@
           "Microsoft.Azure.KeyVault.WebKey": "2.0.7",
           "Microsoft.Rest.ClientRuntime": "2.3.8",
           "Microsoft.Rest.ClientRuntime.Azure": "3.3.7",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "System.Net.Http": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.3.2.0"
-          }
+          "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {}
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.dll": {}
@@ -383,8 +347,8 @@
       },
       "Microsoft.Azure.KeyVault.WebKey/2.0.7": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "NETStandard.Library": "2.0.3",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
@@ -393,10 +357,7 @@
           "System.Security.Cryptography.Algorithms": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.0.7.0"
-          }
+          "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {}
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Azure.KeyVault.WebKey.dll": {}
@@ -404,10 +365,7 @@
       },
       "Microsoft.Data.Edm/5.8.2": {
         "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {}
         },
         "resources": {
           "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
@@ -448,10 +406,7 @@
           "System.Spatial": "5.8.2"
         },
         "runtime": {
-          "lib/netstandard1.1/Microsoft.Data.OData.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
+          "lib/netstandard1.1/Microsoft.Data.OData.dll": {}
         },
         "resources": {
           "lib/netstandard1.1/de/Microsoft.Data.OData.resources.dll": {
@@ -497,10 +452,7 @@
           "SQLitePCLRaw.core": "1.1.7"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.18051"
-          }
+          "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Data.Sqlite.dll": {}
@@ -518,10 +470,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
@@ -534,10 +483,7 @@
           "StackExchange.Redis.StrongName": "1.2.4"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Redis.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.18051"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Redis.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Redis.dll": {}
@@ -551,10 +497,7 @@
           "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.14.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.18051"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.AzureKeyVault.dll": {}
@@ -570,10 +513,7 @@
           "System.ValueTuple": "4.4.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.18051"
-          }
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.AzureAppServices.dll": {}
@@ -581,14 +521,11 @@
       },
       "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Reflection.TypeExtensions": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.30427"
-          }
+          "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
@@ -596,31 +533,24 @@
       },
       "Microsoft.IdentityModel.Clients.ActiveDirectory/3.14.1": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Runtime.Serialization.Json": "4.0.2",
           "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {
-            "assemblyVersion": "3.14.1.10",
-            "fileVersion": "3.14.40629.536"
-          },
-          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
-            "assemblyVersion": "3.14.1.10",
-            "fileVersion": "3.14.40629.536"
-          }
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
           "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         }
       },
-      "Microsoft.NETCore.App/2.1.0-rc1": {
+      "Microsoft.NETCore.App/2.1.0-preview1-26216-03": {
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0-rc1",
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
-          "NETStandard.Library": "2.0.3"
+          "Microsoft.NETCore.DotNetHostPolicy": "2.1.0-preview1-26216-03",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "NETStandard.Library": "2.0.1"
         },
         "compile": {
           "ref/netcoreapp2.1/Microsoft.CSharp.dll": {},
@@ -629,7 +559,6 @@
           "ref/netcoreapp2.1/System.AppContext.dll": {},
           "ref/netcoreapp2.1/System.Buffers.dll": {},
           "ref/netcoreapp2.1/System.Collections.Concurrent.dll": {},
-          "ref/netcoreapp2.1/System.Collections.Immutable.dll": {},
           "ref/netcoreapp2.1/System.Collections.NonGeneric.dll": {},
           "ref/netcoreapp2.1/System.Collections.Specialized.dll": {},
           "ref/netcoreapp2.1/System.Collections.dll": {},
@@ -646,7 +575,6 @@
           "ref/netcoreapp2.1/System.Data.dll": {},
           "ref/netcoreapp2.1/System.Diagnostics.Contracts.dll": {},
           "ref/netcoreapp2.1/System.Diagnostics.Debug.dll": {},
-          "ref/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll": {},
           "ref/netcoreapp2.1/System.Diagnostics.FileVersionInfo.dll": {},
           "ref/netcoreapp2.1/System.Diagnostics.Process.dll": {},
           "ref/netcoreapp2.1/System.Diagnostics.StackTrace.dll": {},
@@ -703,7 +631,6 @@
           "ref/netcoreapp2.1/System.Reflection.Emit.Lightweight.dll": {},
           "ref/netcoreapp2.1/System.Reflection.Emit.dll": {},
           "ref/netcoreapp2.1/System.Reflection.Extensions.dll": {},
-          "ref/netcoreapp2.1/System.Reflection.Metadata.dll": {},
           "ref/netcoreapp2.1/System.Reflection.Primitives.dll": {},
           "ref/netcoreapp2.1/System.Reflection.TypeExtensions.dll": {},
           "ref/netcoreapp2.1/System.Reflection.dll": {},
@@ -716,6 +643,7 @@
           "ref/netcoreapp2.1/System.Runtime.InteropServices.RuntimeInformation.dll": {},
           "ref/netcoreapp2.1/System.Runtime.InteropServices.WindowsRuntime.dll": {},
           "ref/netcoreapp2.1/System.Runtime.InteropServices.dll": {},
+          "ref/netcoreapp2.1/System.Runtime.Intrinsics.dll": {},
           "ref/netcoreapp2.1/System.Runtime.Loader.dll": {},
           "ref/netcoreapp2.1/System.Runtime.Numerics.dll": {},
           "ref/netcoreapp2.1/System.Runtime.Serialization.Formatters.dll": {},
@@ -768,29 +696,25 @@
           "ref/netcoreapp2.1/netstandard.dll": {}
         }
       },
-      "Microsoft.NETCore.DotNetAppHost/2.1.0-rc1": {},
-      "Microsoft.NETCore.DotNetHostPolicy/2.1.0-rc1": {
+      "Microsoft.NETCore.DotNetAppHost/2.1.0-preview1-26216-03": {},
+      "Microsoft.NETCore.DotNetHostPolicy/2.1.0-preview1-26216-03": {
         "dependencies": {
-          "Microsoft.NETCore.DotNetHostResolver": "2.1.0-rc1"
+          "Microsoft.NETCore.DotNetHostResolver": "2.1.0-preview1-26216-03"
         }
       },
-      "Microsoft.NETCore.DotNetHostResolver/2.1.0-rc1": {
+      "Microsoft.NETCore.DotNetHostResolver/2.1.0-preview1-26216-03": {
         "dependencies": {
-          "Microsoft.NETCore.DotNetAppHost": "2.1.0-rc1"
+          "Microsoft.NETCore.DotNetAppHost": "2.1.0-preview1-26216-03"
         }
       },
-      "Microsoft.NETCore.Platforms/2.1.0-rc1": {},
-      "Microsoft.NETCore.Targets/2.1.0-rc1": {},
+      "Microsoft.NETCore.Platforms/2.1.0-preview1-26216-02": {},
       "Microsoft.Rest.ClientRuntime/2.3.8": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.3.8.0"
-          }
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll": {}
@@ -799,14 +723,11 @@
       "Microsoft.Rest.ClientRuntime.Azure/3.3.7": {
         "dependencies": {
           "Microsoft.Rest.ClientRuntime": "2.3.8",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.3.7.0"
-          }
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
@@ -820,10 +741,7 @@
           "Microsoft.Extensions.FileProviders.Physical": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.18051"
-          }
+          "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.BrowserLink.dll": {}
@@ -831,20 +749,20 @@
       },
       "Microsoft.Win32.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
-      "NETStandard.Library/2.0.3": {
+      "NETStandard.Library/2.0.1": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02"
         }
       },
       "runtime.native.System.Net.Security/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
       "SQLitePCLRaw.bundle_green/1.1.7": {
@@ -856,14 +774,8 @@
           "SQLitePCLRaw.provider.e_sqlite3.netstandard11": "1.1.7"
         },
         "runtime": {
-          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {},
+          "lib/netcoreapp/SQLitePCLRaw.batteries_v2.dll": {}
         },
         "compile": {
           "lib/netcoreapp/SQLitePCLRaw.batteries_green.dll": {},
@@ -872,13 +784,10 @@
       },
       "SQLitePCLRaw.core/1.1.7": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.1"
         },
         "runtime": {
-          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
         },
         "compile": {
           "lib/netstandard1.1/SQLitePCLRaw.core.dll": {}
@@ -888,13 +797,11 @@
         "runtimeTargets": {
           "runtimes/linux-x64/native/libe_sqlite3.so": {
             "rid": "linux-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/linux-x86/native/libe_sqlite3.so": {
             "rid": "linux-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           }
         }
       },
@@ -902,8 +809,7 @@
         "runtimeTargets": {
           "runtimes/osx-x64/native/libe_sqlite3.dylib": {
             "rid": "osx-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           }
         }
       },
@@ -911,26 +817,21 @@
         "runtimeTargets": {
           "runtimes/win7-x64/native/e_sqlite3.dll": {
             "rid": "win7-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           },
           "runtimes/win7-x86/native/e_sqlite3.dll": {
             "rid": "win7-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "assetType": "native"
           }
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.7": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "SQLitePCLRaw.core": "1.1.7"
         },
         "runtime": {
-          "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         },
         "compile": {
           "lib/netstandard1.1/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -938,7 +839,7 @@
       },
       "StackExchange.Redis.StrongName/1.2.4": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
           "System.Collections.NonGeneric": "4.3.0",
@@ -963,10 +864,7 @@
           "System.Threading.Timer": "4.3.0"
         },
         "runtime": {
-          "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {
-            "assemblyVersion": "1.2.4.0",
-            "fileVersion": "1.2.4.0"
-          }
+          "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
         },
         "compile": {
           "lib/netstandard1.5/StackExchange.Redis.StrongName.dll": {}
@@ -974,7 +872,7 @@
       },
       "System.Net.NameResolution/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -1002,7 +900,7 @@
       },
       "System.Net.Security/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "Microsoft.Win32.Primitives": "4.3.0",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
@@ -1044,8 +942,8 @@
       },
       "System.Net.Sockets/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Net.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -1061,10 +959,7 @@
       },
       "System.Spatial/5.8.2": {
         "runtime": {
-          "lib/netstandard1.1/System.Spatial.dll": {
-            "assemblyVersion": "5.8.1.0",
-            "fileVersion": "5.8.1.62767"
-          }
+          "lib/netstandard1.1/System.Spatial.dll": {}
         },
         "resources": {
           "lib/netstandard1.1/de/System.Spatial.resources.dll": {
@@ -1107,8 +1002,8 @@
       },
       "System.Threading.Timer/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         }
       },
@@ -1116,15 +1011,12 @@
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "System.Spatial": "5.8.2"
         },
         "runtime": {
-          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
-            "assemblyVersion": "8.1.4.0",
-            "fileVersion": "8.1.4.0"
-          }
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
@@ -2909,7 +2801,7 @@
       },
       "Microsoft.IdentityModel.Logging/5.2.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Diagnostics.Tracing": "4.3.0",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
@@ -2924,7 +2816,7 @@
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.2.0",
           "Microsoft.IdentityModel.Tokens": "5.2.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Collections.Specialized": "4.3.0",
           "System.Diagnostics.Contracts": "4.3.0",
           "System.Net.Http": "4.3.0"
@@ -2937,7 +2829,7 @@
       "Microsoft.IdentityModel.Protocols.OpenIdConnect/5.2.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols": "5.2.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "System.Dynamic.Runtime": "4.3.0",
           "System.IdentityModel.Tokens.Jwt": "5.2.0"
@@ -2952,7 +2844,7 @@
           "Microsoft.IdentityModel.Protocols": "5.2.0",
           "Microsoft.IdentityModel.Tokens.Saml": "5.2.0",
           "Microsoft.IdentityModel.Xml": "5.2.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "System.Xml.XmlDocument": "4.3.0"
         },
         "compile": {
@@ -2963,7 +2855,7 @@
       "Microsoft.IdentityModel.Tokens/5.2.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Logging": "5.2.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Tools": "4.3.0",
@@ -2987,7 +2879,7 @@
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.2.0",
           "Microsoft.IdentityModel.Xml": "5.2.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.1"
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.Saml.dll": {}
@@ -2997,7 +2889,7 @@
       "Microsoft.IdentityModel.Xml/5.2.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.2.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.1"
         },
         "compile": {
           "lib/netstandard1.4/Microsoft.IdentityModel.Xml.dll": {}
@@ -3012,6 +2904,9 @@
         "compile": {
           "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
         },
+        "compileOnly": true
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {
         "compileOnly": true
       },
       "Microsoft.Win32.Registry/4.5.0-rc1": {
@@ -3032,7 +2927,7 @@
       },
       "Newtonsoft.Json.Bson/1.0.1": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -3070,8 +2965,8 @@
       },
       "runtime.native.System/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compileOnly": true
       },
@@ -3085,15 +2980,15 @@
       },
       "runtime.native.System.IO.Compression/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compileOnly": true
       },
       "runtime.native.System.Net.Http/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compileOnly": true
       },
@@ -3162,8 +3057,8 @@
       },
       "System.Collections/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
@@ -3184,6 +3079,9 @@
         "compileOnly": true
       },
       "System.Collections.Immutable/1.5.0-rc1": {
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
         "compileOnly": true
       },
       "System.Collections.NonGeneric/4.3.0": {
@@ -3214,8 +3112,8 @@
       },
       "System.Console/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
@@ -3242,18 +3140,21 @@
       },
       "System.Diagnostics.Debug/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Diagnostics.DiagnosticSource/4.5.0-rc1": {
+        "compile": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
+        },
         "compileOnly": true
       },
       "System.Diagnostics.FileVersionInfo/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Globalization": "4.3.0",
           "System.IO": "4.3.0",
           "System.IO.FileSystem": "4.3.0",
@@ -3276,16 +3177,16 @@
       },
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Diagnostics.Tracing/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
@@ -3311,16 +3212,16 @@
       },
       "System.Globalization/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Globalization.Calendars/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Runtime": "4.3.0"
         },
@@ -3328,7 +3229,7 @@
       },
       "System.Globalization.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Globalization": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -3340,7 +3241,7 @@
       "System.IdentityModel.Tokens.Jwt/5.2.0": {
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "5.2.0",
-          "NETStandard.Library": "2.0.3",
+          "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
@@ -3350,7 +3251,7 @@
       },
       "System.Interactive.Async/3.1.1": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.1"
         },
         "compile": {
           "lib/netstandard1.3/System.Interactive.Async.dll": {}
@@ -3359,8 +3260,8 @@
       },
       "System.IO/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
@@ -3369,7 +3270,7 @@
       },
       "System.IO.Compression/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Buffers": "4.5.0-rc1",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
@@ -3389,8 +3290,8 @@
       },
       "System.IO.FileSystem/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -3462,7 +3363,7 @@
       },
       "System.Net.Http/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Diagnostics.DiagnosticSource": "4.5.0-rc1",
@@ -3493,8 +3394,8 @@
       },
       "System.Net.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
         },
@@ -3551,8 +3452,8 @@
       },
       "System.Reflection/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.IO": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -3588,20 +3489,23 @@
       },
       "System.Reflection.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Reflection.Metadata/1.6.0-rc1": {
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        },
         "compileOnly": true
       },
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
@@ -3615,8 +3519,8 @@
       },
       "System.Resources.ResourceManager/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Globalization": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Runtime": "4.3.0"
@@ -3625,8 +3529,8 @@
       },
       "System.Runtime/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compileOnly": true
       },
@@ -3638,24 +3542,24 @@
       },
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Runtime.Handles/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Runtime.InteropServices/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Reflection": "4.3.0",
           "System.Reflection.Primitives": "4.3.0",
           "System.Runtime": "4.3.0",
@@ -3704,7 +3608,7 @@
       },
       "System.Security.AccessControl/4.5.0-rc1": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Security.Principal.Windows": "4.5.0-rc1"
         },
         "compile": {
@@ -3726,7 +3630,7 @@
       },
       "System.Security.Cryptography.Algorithms/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Collections": "4.3.0",
           "System.IO": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -3751,7 +3655,7 @@
       },
       "System.Security.Cryptography.Csp/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.IO": "4.3.0",
           "System.Reflection": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
@@ -3769,7 +3673,7 @@
       },
       "System.Security.Cryptography.Encoding/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Collections": "4.3.0",
           "System.Collections.Concurrent": "4.3.0",
           "System.Linq": "4.3.0",
@@ -3822,7 +3726,7 @@
       },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Globalization": "4.3.0",
@@ -3877,7 +3781,7 @@
       },
       "System.Security.Principal.Windows/4.5.0-rc1": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1"
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02"
         },
         "compile": {
           "ref/netstandard2.0/System.Security.Principal.Windows.dll": {}
@@ -3886,23 +3790,23 @@
       },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
       },
       "System.Text.Encoding.CodePages/4.5.0-rc1": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
           "System.Runtime.CompilerServices.Unsafe": "4.5.0-rc1"
         },
         "compileOnly": true
       },
       "System.Text.Encoding.Extensions/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
         },
@@ -3935,8 +3839,8 @@
       },
       "System.Threading.Tasks/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0-rc1",
-          "Microsoft.NETCore.Targets": "2.1.0-rc1",
+          "Microsoft.NETCore.Platforms": "2.1.0-preview1-26216-02",
+          "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
         },
         "compileOnly": true
@@ -4223,7 +4127,7 @@
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UMlN++q5qqzQ2HH+uOrKxN5fmBXMQDhrYkSaPJxhmyzfJaFPirrVr1raim/Ocq1psAZoB9+7JSAf0GDAX35wUg==",
+      "sha512": "sha512-H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "path": "microsoft.extensions.platformabstractions/1.1.0",
       "hashPath": "microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512"
     },
@@ -4234,47 +4138,40 @@
       "path": "microsoft.identitymodel.clients.activedirectory/3.14.1",
       "hashPath": "microsoft.identitymodel.clients.activedirectory.3.14.1.nupkg.sha512"
     },
-    "Microsoft.NETCore.App/2.1.0-rc1": {
+    "Microsoft.NETCore.App/2.1.0-preview1-26216-03": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Y76lrh4O4CqQrZNp4CYcmdC8BmlMj8w19TMxJGogBZgciIq/h0Ine/gFivf2Qc4Ko2/CYafOIYBqyVqLYUXf8g==",
-      "path": "microsoft.netcore.app/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.app.2.1.0-rc1.nupkg.sha512"
+      "sha512": "sha512-76o+qUv4nMXBgOoe8TiaxtrrzKcLF2aDt6LTsQRErOhGM25dsKssmxjUyJOZSD08FMIszDU2AAixtFZSsDr98Q==",
+      "path": "microsoft.netcore.app/2.1.0-preview1-26216-03",
+      "hashPath": "microsoft.netcore.app.2.1.0-preview1-26216-03.nupkg.sha512"
     },
-    "Microsoft.NETCore.DotNetAppHost/2.1.0-rc1": {
+    "Microsoft.NETCore.DotNetAppHost/2.1.0-preview1-26216-03": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pljoDMtc2ZDWu+v2RosjokXh+PLgEofF4/Fk0ZFED0eFDlc7Cf3S9W9WTV1lSg2P0QUUxl9N9gNNlX2dcnAY6w==",
-      "path": "microsoft.netcore.dotnetapphost/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.dotnetapphost.2.1.0-rc1.nupkg.sha512"
+      "sha512": "sha512-TzUgHVt/7hw5Ea/agrXcs0ATN1UXGO2eWfbJ2jE7tEixn/OjUKsFOAp1G2+by2VzaMexr/RgmZ4+PiZFHEwy3Q==",
+      "path": "microsoft.netcore.dotnetapphost/2.1.0-preview1-26216-03",
+      "hashPath": "microsoft.netcore.dotnetapphost.2.1.0-preview1-26216-03.nupkg.sha512"
     },
-    "Microsoft.NETCore.DotNetHostPolicy/2.1.0-rc1": {
+    "Microsoft.NETCore.DotNetHostPolicy/2.1.0-preview1-26216-03": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-w60irQLvSJ/idAtGOm6yQPSrV8C8TEAPNyajjnw+e0cy00WTsM4c0412OVOLgBjnxSNUdSAh+552RzAGO6p0Pw==",
-      "path": "microsoft.netcore.dotnethostpolicy/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.0-rc1.nupkg.sha512"
+      "sha512": "sha512-8GVVXAaCfbGcnYffzuRq8ZinphQCXIYSWalgp4xoJz73pCAVi3CaWBBhFLBZrlMsXbkIPDjkzBiDMUDcbGmzkg==",
+      "path": "microsoft.netcore.dotnethostpolicy/2.1.0-preview1-26216-03",
+      "hashPath": "microsoft.netcore.dotnethostpolicy.2.1.0-preview1-26216-03.nupkg.sha512"
     },
-    "Microsoft.NETCore.DotNetHostResolver/2.1.0-rc1": {
+    "Microsoft.NETCore.DotNetHostResolver/2.1.0-preview1-26216-03": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0desKuiIjUpcgmO1ViGKLTyhhO+CIRwN1Po/2DDQh9fHkXkxCHPKnZOKFjYMJSHohsliotAC99wZqYs9sKZkdQ==",
-      "path": "microsoft.netcore.dotnethostresolver/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.0-rc1.nupkg.sha512"
+      "sha512": "sha512-C/KrTMazxlJCwmi746lx1/QwaFrs3NBacr8JwKR1xBoBfF3i+eLY1tfE9XR+6dKYql3VaATsb4/PwSmLuW5nnQ==",
+      "path": "microsoft.netcore.dotnethostresolver/2.1.0-preview1-26216-03",
+      "hashPath": "microsoft.netcore.dotnethostresolver.2.1.0-preview1-26216-03.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/2.1.0-rc1": {
+    "Microsoft.NETCore.Platforms/2.1.0-preview1-26216-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nsme5QrPBS8qq1FLFwbhhyOPMcQjhWd0pXCEIAnmtTacLdZZ+w54QiP7OaibGEyDdyhL/42ixsazNuP0irPKNw==",
-      "path": "microsoft.netcore.platforms/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.platforms.2.1.0-rc1.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Targets/2.1.0-rc1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TmcnvHJlhTifhcw0C9ey85ag9xnRi4BLOZePCqfUnO3MS78ifKGBInIfQZxgKvGLjGhvwib4HCbagEtvQR2cEw==",
-      "path": "microsoft.netcore.targets/2.1.0-rc1",
-      "hashPath": "microsoft.netcore.targets.2.1.0-rc1.nupkg.sha512"
+      "sha512": "sha512-N6EA09LfBNpWTV/fjuAEhcsrl5iD+vIKML0P2TxrwiUd8ThCvOM4cdvimqGhJuBeHkgdSl+sFi0HvWnTkhin0g==",
+      "path": "microsoft.netcore.platforms/2.1.0-preview1-26216-02",
+      "hashPath": "microsoft.netcore.platforms.2.1.0-preview1-26216-02.nupkg.sha512"
     },
     "Microsoft.Rest.ClientRuntime/2.3.8": {
       "type": "package",
@@ -4304,12 +4201,12 @@
       "path": "microsoft.win32.primitives/4.3.0",
       "hashPath": "microsoft.win32.primitives.4.3.0.nupkg.sha512"
     },
-    "NETStandard.Library/2.0.3": {
+    "NETStandard.Library/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
-      "path": "netstandard.library/2.0.3",
-      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
     },
     "runtime.native.System.Net.Security/4.3.0": {
       "type": "package",
@@ -5535,6 +5432,13 @@
       "sha512": "sha512-lR55j2P9mYj8OClYGTlaLeykFcKS5MGo3bL2a+PRn89yBz1/DQVr75rXv+5MH5T8N6ubSv7PvJyAmfpb0O3/pA==",
       "path": "microsoft.net.http.headers/2.1.0-rc1-final",
       "hashPath": "microsoft.net.http.headers.2.1.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.5.0-rc1": {
       "type": "package",
